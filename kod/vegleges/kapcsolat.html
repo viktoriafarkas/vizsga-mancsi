@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mancsi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../../logo/to-edit/1x/favicon.png">
+</head>
+
+<body>
+    <!-- FEJLÉC -->
+    <header>
+        <!-- NAVIGÁCIÓ -->
+        <nav>
+            <div class="container">
+                <div class="topnav">
+                    <a href="../vegleges/index.html" id="fejlec"><img src="../../logo/to-edit/logo.png" alt="Mancsi Logó" id="logo"></a>
+                    <ul id="menu">
+                        <li><a href="../vegleges/index.html">Főoldal</a></li>
+                        <li><a href="../vegleges/rolunk.html">Rólunk</a></li>
+                        <div class="dropdown">
+                            <li>
+                                <a class="dropbtn">Szolgáltatások</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../vegleges/szolgaltatasok-kutya.html">Kutyának</a></li>
+                                    <li><a href="../vegleges/szolgaltatasok-macska.html">Cicának</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <li><a href="../vegleges/kapcsolat.html">Kapcsolat</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" class="hamburger" onclick="myFunction()"><img src="../../svg/hamburger.png" alt="hamburgermenu" id="hamburger" onclick="this.src='../../svg/kilep.png' "></a>
+                </div>
+            </div>
+            
+            <div class="container-2">
+                <a href="../vegleges/index.html" id="fejlec"><img src="../../logo/to-edit/logo.png" alt="Mancsi Logó" id="logo"></a>
+                <nav class="jobb-menu">
+                    <ul id="menu">
+                        <li><a href="../vegleges/index.html">FŐOLDAL</a></li>
+                        <li><a href="../vegleges/rolunk.html">RÓLUNK</a></li>
+                        <div class="dropdown">
+                            <li >
+                                <a class="dropbtn">SZOLGÁLTATÁSOK</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../vegleges/szolgaltatasok-kutya.html">Kutyának</a></li>
+                                    <li><a href="../vegleges/szolgaltatasok-macska.html">Cicának</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <li><a class="active" href="../vegleges/kapcsolat.html">KAPCSOLAT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section class="kapcsolat-sec1">
+            <div>
+                <div class="kapcsolat-h1"> 
+                    <h1 id="kapcsolat-rolunk">Kapcsolat</h1>
+                    </div>
+                    <div class="kapcsolat-img">
+                    <img src="../../img/optimalizalt/dupla-folt.png" alt="Háttér">
+                    </div>
+            </div>
+        </section>
+        <section class="kapcsolat-sec2">
+            <div class="hirlevel-form">
+                <h2>Írjon nekünk!</h2>
+                <form>
+                    <div>
+                        <label for="vezeteknev">Neved:*</label><br>
+                        <input type="text" name="nev" id="vezeteknev" required placeholder="Példa Panka">
+                    </div>
+                    <div>
+                        <label for="mail">Telefonszámod:*</label><br>
+                        <input type="text" name="phone" id="phone" required placeholder="+36-00-000-0000">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail címed:*</label><br>
+                        <input type="text" name="mail" id="mail" required placeholder="pelda.panka@minta.hu">
+                    </div>
+                    <div>
+                        <label for="subject">Üzenet:</label>
+                        <textarea id="subject" name="subject" placeholder="Kérjük ide írja üzenetét." style="height:200px"></textarea>                        
+                    </div>
+                    <button class="feliratkozom">Küldés!</button>
+                </form>
+            </div>
+
+        </section>
+        <section class="kapcsolat-sec3">
+            <div>
+                <h2 class="eler">Elérhetőségek</h2>
+                <address>
+                    5000 Szolnok, Tiszaligeti stny. 1. <br>
+                    <a class="kapcs" href="tel:+36-1-1234567">+36-1-1234567</a><br>
+                    <a class="kapcs" href="mailto:info@mancsi.hu">info@mancsi.hu</a>
+                </address>
+                <div class="nyitvatartas">
+                <h2 class="nyitva">Nyitvatartás</h2>
+                <table>
+                    <thead class="mobil-tabla">
+                        <tr>
+                            <th>Hétfő</th>
+                            <th>Kedd</th>
+                            <th>Szerda</th>
+                            <th>Csütörtök</th>
+                            <th>Péntek</th>
+                            <th>Szombat</th>
+                            <th>Vasárnap</th>
+                        </tr>
+                    </thead>
+                    <thead class="nagy-tabla">
+                        <tr>
+                            <th>Hétfő</th>
+                            <th>Kedd</th>
+                            <th>Sze.</th>
+                            <th>Csüt.</th>
+                            <th>Pén.</th>
+                            <th>Szo.</th>
+                            <th>Vas.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>14-18h</td>
+                            <td>10-14h</td>
+                            <td>16-18h</td>
+                            <td>14-17h</td>
+                            <td>8-12h</td>
+                            <td>Zárva</td>
+                            <td>Zárva</td>
+                        </tr>
+                    </tbody>
+                 </table>
+                </div>
+            </div>
+        </section>
+        <section class="kapcsolat-sec4">
+            <h2>Látogasson el hozzánk!</h2>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2712.5350885369444!2d20.1890076320679!3d47.16695916249469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474141440f6d6817%3A0x5b2ef1a6155b27d!2sSzolnok%2C%20Tiszaligeti%20stny.%2C%205000!5e0!3m2!1shu!2shu!4v1672595673434!5m2!1shu!2shu" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- LÁBLÉC -->
+    <footer class="kapcs-footer">
+        <div class="iconok">
+            <a href="https://www.facebook.com/">
+                <img src="../../img/optimalizalt/social/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="../../img/optimalizalt/social/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/messenger/">
+                <img src="../../img/optimalizalt/social/messenger.png" alt="Messenger">
+            </a>
+        </div>
+        <ul>
+            <a href=""><li>IMPRESSZUM</li></a>
+            <a href=""><li>JOGI NYILTAKOZAT</li></a>
+            <a href=""><li>ADATVÉDELEM</li></a>
+            <a href=""><li>ÁSZF</li></a>
+            <a href=""><li>KAPCSOLAT</li></a>
+        </ul>
+        <p>Weboldal- és logó design © 2023 Farkas Viktória</p>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Vissza a lap tetjére</button>
+
+<script src="./main.js"></script>
+</body>
+
+</html>
